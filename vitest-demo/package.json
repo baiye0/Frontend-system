@@ -1,0 +1,26 @@
+{
+  "name": "vitest-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@vitest/ui": "^1.2.0",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "jsdom": "^23.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.0",
+    "vue-tsc": "^1.8.25"
+  }
+}
+
